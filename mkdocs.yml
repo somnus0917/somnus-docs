@@ -1,0 +1,87 @@
+site_name: Somnus Docs
+site_description: Somnus 的个人技术文档站
+site_author: Somnus
+site_url: https://docs.somnus.top/
+repo_name: somnus4214/somnus-docs
+repo_url: https://github.com/somnus4214/somnus-docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      type: date
+      locale: zh
+      fallback_to_build_date: true
+      enable_creation_date: false
+      enabled: !ENV [CI, false]
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - Self-hosting:
+      - self-hosting/index.md
+      - Caddy: self-hosting/caddy.md
+      - Vaultwarden: self-hosting/vaultwarden.md
+      - AFFiNE: self-hosting/affine.md
+  - Linux:
+      - linux/index.md
+      - Zsh: linux/zsh.md
+      - tmux: linux/tmux.md
+      - CachyOS: linux/cachyos.md
+  - Research:
+      - research/index.md
+      - RAFT-Stereo: research/raft-stereo.md
+  - Tools:
+      - tools/index.md
+      - Hugo 与 GitHub Pages: tools/hugo-github-pages.md
+      - Typst: tools/typst.md
+      - Git: tools/git.md
