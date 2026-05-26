@@ -5,7 +5,7 @@
 ## 目录
 
 - [Caddy](caddy.md)：HTTPS 入口、反向代理模板与容器内重载命令。
-- [Vaultwarden](vaultwarden.md)：密码库服务的部署骨架、代理和备份检查点。
+- [Vaultwarden](vaultwarden.md)：密码库服务的 Compose 部署、HTTPS 入口和备份检查点。
 - [AFFiNE](affine.md)：知识库服务的 Compose 运维、代理和 AI 配置提醒。
 
 !!! warning "先保护数据"

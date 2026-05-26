@@ -76,6 +76,7 @@ nav:
       - linux/index.md
       - Zsh: linux/zsh.md
       - tmux: linux/tmux.md
+      - 远程服务器基础操作: linux/server-basics.md
       - CachyOS: linux/cachyos.md
   - Research:
       - research/index.md

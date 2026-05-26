@@ -1,12 +1,13 @@
 # Linux
 
-本栏目整理日常 Linux 工作站和服务器上的终端配置、软件包维护与系统排错流程。目前重点覆盖 Zsh、tmux 以及 CachyOS / Arch 系统。
+本栏目整理日常 Linux 工作站和服务器上的终端配置、远程操作、软件包维护与系统排错流程。目前重点覆盖 Zsh、tmux、SSH 文件传输以及 CachyOS / Arch 系统。
 
 ## 目录
 
-- [Zsh](zsh.md)：Shell、Oh My Zsh 与 Starship 配置记录模板。
-- [tmux](tmux.md)：终端会话管理快捷键与基础配置。
-- [CachyOS](cachyos.md)：滚动更新、包管理与 AUR 排错笔记。
+- [Zsh](zsh.md)：Shell、Oh My Zsh 与提示符的安装配置步骤。
+- [tmux](tmux.md)：远程长任务、终端会话管理与 TPM 配置。
+- [远程服务器基础操作](server-basics.md)：SSH、SCP、SFTP 与 Rsync 传输手册。
+- [CachyOS](cachyos.md)：双系统安装排错、镜像源与滚动维护笔记。
 
 ## 记录约定
 
