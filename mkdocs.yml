@@ -2,8 +2,8 @@ site_name: Somnus Docs
 site_description: Somnus 的个人技术文档站
 site_author: Somnus
 site_url: https://docs.somnus.top/
-repo_name: somnus4214/somnus-docs
-repo_url: https://github.com/somnus4214/somnus-docs
+repo_name: somnus0917/somnus-docs
+repo_url: https://github.com/somnus0917/somnus-docs
 
 theme:
   name: material

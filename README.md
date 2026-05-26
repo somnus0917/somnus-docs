@@ -75,14 +75,14 @@ docs/
 
 `Repository Settings -> Pages -> Build and deployment -> Source`
 
-将 Source 选择为 **GitHub Actions**。随后将项目推送到 `somnus4214/somnus-docs` 仓库的 `main` 分支即可触发部署。
+将 Source 选择为 **GitHub Actions**。随后将项目推送到 `somnus0917/somnus-docs` 仓库的 `main` 分支即可触发部署。
 
 ## 自定义域名
 
 要将站点发布为 `docs.somnus.top`：
 
 1. 在 GitHub 仓库的 **Settings -> Pages -> Custom domain** 中填写 `docs.somnus.top`，保存后启用 HTTPS。
-2. 在域名 DNS 服务商处添加 `CNAME` 记录，将主机记录 `docs` 指向 `somnus4214.github.io`。
+2. 在域名 DNS 服务商处添加 `CNAME` 记录，将主机记录 `docs` 指向 `somnus0917.github.io`。
 3. DNS 生效和 GitHub 校验完成后，确认 `https://docs.somnus.top/` 能正常访问并启用 HTTPS 强制跳转。
 
 更换域名配置期间，保留 GitHub Pages 提供的默认地址用于验证部署产物是否正常。
