@@ -8,5 +8,6 @@
 - [Vaultwarden](vaultwarden.md)：密码库服务的 Compose 部署、HTTPS 入口和备份检查点。
 - [AFFiNE](affine.md)：知识库服务的 Compose 运维、代理和 AI 配置提醒。
 
+<!-- prettier-ignore -->
 !!! warning "先保护数据"
     对存在持久化数据的服务，升级镜像或修改 Compose 文件之前先制作可恢复的备份，并记录恢复验证结果。

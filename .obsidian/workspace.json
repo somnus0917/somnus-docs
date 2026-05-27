@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "94f177c78c9e8a58",
+    "type": "split",
+    "children": [
+      {
+        "id": "66c056a83456d579",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ce86a1e46c8cd9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/llm/llm04-position-encoding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "llm04-position-encoding"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be7ac8ca40698016",
+    "type": "split",
+    "children": [
+      {
+        "id": "20d6f139deeba2d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cacf9275ef1731e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b17811a0f1096575",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "bfecec11cb7da27b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b9002f7cb3dd7660",
+    "type": "split",
+    "children": [
+      {
+        "id": "e125b1cf6af14147",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ede1b9ef2303ec9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/llm/llm04-position-encoding.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "llm04-position-encoding 的反向链接列表"
+            }
+          },
+          {
+            "id": "b282403d4fb1f94e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/llm/llm04-position-encoding.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "llm04-position-encoding 的出链列表"
+            }
+          },
+          {
+            "id": "564602c89ded32ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "23c6450d70fdd8a1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6553c31a2601dd68",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/llm/llm04-position-encoding.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "llm04-position-encoding 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "6ce86a1e46c8cd9f",
+  "lastOpenFiles": [
+    "docs/llm/llm02-transformer.md",
+    "docs/llm/llm03-tokenizer.md",
+    "docs/llm/llm01-self-attention.md",
+    "docs/linux/cachyos.md",
+    "docs/llm/llm04-position-encoding.md",
+    "docs/llm",
+    "docs/llm_副本/llm04-position-encoding.md",
+    "docs/llm_副本/llm03-tokenizer.md",
+    "docs/llm_副本/llm02-transformer.md",
+    "docs/llm_副本/llm01-self-attention.md",
+    "docs/llm_副本",
+    "docs/assets/seo/docs-og-image.svg",
+    "docs/assets/seo/docs-icon.svg",
+    "docs/assets/images/og-image.png",
+    "docs/assets/images/logo.svg",
+    "docs/assets/images/favicon.png",
+    "docs/tools/typst.md",
+    "docs/tools/index.md",
+    "docs/tools/hugo-github-pages.md",
+    "docs/tools/git.md",
+    "docs/index.md",
+    "docs/research/raft-stereo.md",
+    "docs/research/index.md"
+  ]
+}
