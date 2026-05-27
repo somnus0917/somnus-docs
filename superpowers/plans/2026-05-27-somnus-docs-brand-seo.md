@@ -48,13 +48,16 @@ Run:
 
 ```bash
 test -f site/robots.txt
-rg -n 'assets/images/docs-favicon\.png|assets/images/favicon\.png' site/index.html
+test -f docs/assets/images/favicon.png
 rg -n 'property="og:image"|name="twitter:card"' site/index.html
 rg -n 'assets/images/logo\.svg' site/index.html
 ```
 
 Expected: each command fails before implementation because the current site
-has no `robots.txt`, branded static assets, social metadata, or custom logo.
+has no `robots.txt`, repository-owned branded favicon, social metadata, or
+custom logo. Material's default template already references an internal
+`assets/images/favicon.png`, so an HTML-path assertion cannot distinguish the
+new brand asset from its bundled default favicon.
 
 - [ ] **Step 3: Verify current behavior that must be retained**
 
