@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.somnus.top/sitemap.xml

@@ -8,6 +8,9 @@ repo_url: https://github.com/somnus0917/somnus-docs
 theme:
   name: material
   language: zh
+  custom_dir: overrides
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
   features:
     - navigation.tabs
     - navigation.sections

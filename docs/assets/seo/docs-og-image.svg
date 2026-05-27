@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#122536" stroke-width="1" />
+    </pattern>
+    <radialGradient id="glow" cx="76%" cy="30%" r="56%">
+      <stop offset="0" stop-color="#123d4c" stop-opacity=".86" />
+      <stop offset=".47" stop-color="#092130" stop-opacity=".36" />
+      <stop offset="1" stop-color="#071321" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#071321" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <text x="76" y="99" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="5">TECHNICAL REFERENCE / HANDBOOKS</text>
+  <g transform="translate(984 72)">
+    <rect width="138" height="138" rx="30" fill="#0d1e2c" stroke="#22d3ee" stroke-width="4" />
+    <path d="M95 44c-7-4-15-6-24-6-15 0-25 6-25 16 0 22 48 11 48 33 0 11-10 18-26 18-10 0-19-3-26-8" fill="none" stroke="#67e8f9" stroke-width="9" stroke-linecap="round" />
+  </g>
+  <text x="76" y="297" fill="#e2f3f7" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-2">Somnus Docs</text>
+  <text x="80" y="363" fill="#a8c1cb" font-family="PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Arial, sans-serif" font-size="27">可复用的技术手册、配置模板与排错记录。</text>
+  <line x1="80" y1="466" x2="1120" y2="466" stroke="#203746" stroke-width="2" />
+  <text x="80" y="526" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">DOCS.SOMNUS.TOP</text>
+</svg>
